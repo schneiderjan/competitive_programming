@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Shiritori.cpp">
+    <ClCompile Include="shiritori.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
