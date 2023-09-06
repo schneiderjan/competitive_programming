@@ -3,7 +3,7 @@ def has_bard(villagers) -> bool:
 
 
 def read_file():
-    with open("bard_input.txt", "r") as f:
+    with open("python\\bard\\bard_input.txt", "r") as f:
         input_ = []
         for line in f:
             if not line.strip():
@@ -18,8 +18,6 @@ if __name__ == "__main__":
     n_total_villagers = int(input_[0])
     n_evenings = int(input_[1])
     current_song = None
-    villagers_know_songs = {}
-    unique_villagers = set()
     songs_known_by_villagers = {}
     current_song = 0
 
